@@ -1,0 +1,23 @@
+
+    * {
+        
+        margin: 0;
+        padding: 0;
+        font-family: 'PT Sans', sans-serif;
+      }
+      
+      .overlay {
+        position: fixed;
+        min-width: 100%;
+        min-height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+            
+        
+      }
+      .overlay h1{
+        margin-top: 150px;
+        color:white;
+      }
