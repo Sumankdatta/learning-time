@@ -1,0 +1,10 @@
+.quize{
+    display: flex;
+}
+.quize img{
+    width:200px;
+    height: 150px;
+    background-color: lightgrey;
+    
+
+}
