@@ -1,0 +1,9 @@
+.quiz-data{
+    background-color:lightgrey;
+}
+.option p{
+    display: grid;
+    grid-template: repeat(2,1fr);
+    gap:5px;
+  }
+  

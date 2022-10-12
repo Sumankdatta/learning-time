@@ -1,5 +1,12 @@
 .quize{
-    display: flex;
+    border:1px solid grey;
+    height: 200px;
+    
+}
+.quize a{
+    text-decoration: none;
+    border: none;
+    color:white;
 }
 .quize img{
     width:200px;
@@ -7,4 +14,22 @@
     background-color: lightgrey;
     
 
+}
+.quiz-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.quiz-button button{
+    border: none;
+    padding:1px 5px;
+    width: 50px;
+    background-color: rgb(110, 110, 244);
+    color: beige;
+   
+
+}
+.quiz-button h6{
+   
 }
