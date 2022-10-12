@@ -12,7 +12,7 @@ const Allquize = ({ quiz }) => {
     // console.log(options)
     const clickHandel =(ans)=>{
        if(quiz.correctAnswer===ans) {
-        toast('Wright answer')
+        toast('Right answer')
        }
        else{
         toast('Wrong answer')
