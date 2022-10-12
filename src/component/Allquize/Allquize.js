@@ -7,8 +7,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 const Allquize = ({ quiz }) => {
-    console.log(quiz)
-    const { question, id, options, total, name } = quiz;
+    
+    const { question} = quiz;
     // console.log(options)
     const clickHandel =(ans)=>{
        if(quiz.correctAnswer===ans) {
