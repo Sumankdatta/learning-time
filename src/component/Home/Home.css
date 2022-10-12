@@ -32,3 +32,11 @@
         margin-top: 10%; */
         margin: 10%;
       }
+      @media only screen and (max-width: 768px) {
+        .home {
+            
+            display: flex;
+            flex-direction: column-reverse; 
+            margin-top: 30px;
+        }
+      }      

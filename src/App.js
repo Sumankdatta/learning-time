@@ -34,11 +34,10 @@ function App() {
         {
           path: '/analytics',
           element: <Analytics></Analytics>
-        }
-
+        },   
       ]
     },
-
+    {path:'*', element: <div>This route is not found 404</div>}
   ]);
 
 

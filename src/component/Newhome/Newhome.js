@@ -12,14 +12,14 @@ const Newhome = ({ quize }) => {
 
 
             <div className='quiz-button'>
+
+                <h6>{name}</h6>
+
                 
-                    <h6>{name}</h6>
-                
-                <div>
                     <button>
                         <Link to={`/quizes/${id}`}>Start</Link>
                     </button></div>
-            </div>
+            
         </div>
     );
 };

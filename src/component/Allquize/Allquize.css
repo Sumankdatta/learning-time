@@ -10,7 +10,9 @@
 }
 .question {
     
-   
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
 }
 .display{
 display: grid;
