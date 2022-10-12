@@ -1,0 +1,14 @@
+.blog{
+    margin: 5% 2%;
+    text-align: justify;
+}
+.blog h1{
+    text-align: center;
+    color: rgb(27, 93, 93);
+}
+.blog h2{
+    color: rgb(114, 114, 249);
+}
+.blog div{
+    margin:5%;
+}

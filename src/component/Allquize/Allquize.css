@@ -1,9 +1,26 @@
 .quiz-data{
-    background-color:lightgrey;
+    background-color: lightgrey;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 10px;
+    padding: 25px;
+    
+  
 }
-.option p{
-    display: grid;
-    grid-template: repeat(2,1fr);
-    gap:5px;
+.question {
+    
+   
+}
+.display{
+display: grid;
+ grid-template-columns: repeat(2,1fr);
+ margin-top: 5%;
+ margin-left: 5%;
+ margin-right: 2%;
+ 
+  }
+  .label{
+    
   }
   
