@@ -1,5 +1,7 @@
 import React from 'react';
 import './Allquize.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faEye} from '@fortawesome/free-solid-svg-icons'
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -17,12 +19,17 @@ const Allquize = ({ quiz }) => {
        }
        
     }
+    const clickEyes=()=>{
+        toast(quiz.correctAnswer);
+    }
     return (
 
         <div className='quiz-data'>
 
             <div className='question'>
                 <h5>{question.slice(3, -4)}</h5>
+                <FontAwesomeIcon onClick={() => clickEyes(quiz.correctAnswer)} icon={faEye}></FontAwesomeIcon>
+                
                 </div>
             <div className='display'>
                 {
