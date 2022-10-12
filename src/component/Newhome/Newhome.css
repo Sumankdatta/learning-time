@@ -1,6 +1,9 @@
 .quize{
-    border:1px solid grey;
-    height: 200px;
+     border:1px solid grey;
+    height: 200px; 
+     
+    
+    
     
 }
 .quize a{
@@ -30,6 +33,10 @@
    
 
 }
-.quiz-button h6{
-   
-}
+
+@media only screen and (max-width: 420px) {
+    .quize {
+        
+        
+    }
+  }
