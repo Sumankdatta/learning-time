@@ -15,6 +15,7 @@ const Analytics = () => {
 
 
     <div className='analytic'>
+      <h3>Analytics of all quizes :</h3>
 
       <LineChart
 

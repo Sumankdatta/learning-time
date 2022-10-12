@@ -4,10 +4,11 @@ import Allquize from '../Allquize/Allquize';
 
 const Quize = () => {
     const quize=useLoaderData();
-    console.log(quize)
+    
     
     return (
         <div>
+            <h3>All quizes </h3>
             
             {
                  quize.data.questions.map(quiz=><Allquize

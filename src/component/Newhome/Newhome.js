@@ -18,7 +18,8 @@ const Newhome = ({ quize }) => {
                 
                     <button>
                         <Link to={`/quizes/${id}`}>Start</Link>
-                    </button></div>
+                    </button>
+            </div>
             
         </div>
     );
